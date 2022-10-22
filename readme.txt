@@ -1,3 +1,5 @@
+# Addon copied from https://legacy-wow.com/vanilla-addons/reagentdata/
+
 Reagent Data - Version 2.4.0c
 
 Author: Jerigord (GDI)
@@ -502,7 +504,7 @@ Engineering:
  * Added ReagentData['gem']['azerothiandiamond'] to ReagentData['engineering']
  * Added ReagentData['element']['essenceofearth'] to ReagentData['engineering']
  * Added ReagentData['element']['essenceoffire'] to ReagentData['engineering']
- * Added ReagentData['element']['essenceofair'] to ReagentData['engineering']	
+ * Added ReagentData['element']['essenceofair'] to ReagentData['engineering']   
 
 Leatherworking:
  * Added ReagentData['gem']['shadow'] to ReagentData['leatherworking']
