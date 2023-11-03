@@ -356,8 +356,8 @@ ReagentData["reagent"] = {
     ["symbolofdivinity"]       = "Symbole de divinit\195\169",
     ["blindingpowder"]         = "Poudre aveuglante",
     ["shinyfishscales"]        = "Ecailles de poisson brillantes",
-	["arcanepowder"]           = "Arcane Powder", --FIX ME
-	["symbolofkings"] 		   = "Symbol of Kings", --FIX ME
+    ["arcanepowder"]           = "Arcane Powder", --FIX ME
+    ["symbolofkings"]          = "Symbol of Kings", --FIX ME
 };
 
 -- Reagent Data: Scales
@@ -835,8 +835,8 @@ ReagentData["quest"]["Zul\'Gurub"]["item"] = {
 --~         ["yellow"]   = "Bijou hakkari jaune",
 --~     },
     ["doll"] = {
-		["voodoo"] = "Punctured Voodoo Doll", --FIX ME
-	},
+        ["voodoo"] = "Punctured Voodoo Doll", --FIX ME
+    },
     ["primal"] = {
         ["aegis"]        = "Egide primordiale hakkari",
         ["armsplint"]    = "Brassards primordiaux hakkari",
@@ -847,7 +847,7 @@ ReagentData["quest"]["Zul\'Gurub"]["item"] = {
         ["shawl"]        = "Ch\195\162le primordial hakkari",
         ["stanchion"]    = "Etan\195\167on primordial hakkari",
         ["tabard"]       = "Tabard primordial hakkari",
-		["idol"]         = "Primal Hakkari Idol", --FIX ME
+        ["idol"]         = "Primal Hakkari Idol", --FIX ME
     },
 };
 ReagentData["quest"]["Ruins of Anh\'Qiraj"] = {};
@@ -872,18 +872,18 @@ ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"] = {
         ["silver"] = "Silver Scarab", --FIX ME
         ["stone"] = "Stone Scarab", --FIX ME
     },]]
-	["hilt"] = {
-		["ornate"] = "Qiraji Ornate Hilt", --FIX ME
-		["spiked"] = "Qiraji Spiked Hilt", --FIX ME
-	},
-	["ring"] = {
-		["ceremonial"] = "Qiraji Ceremonial Ring", --FIX ME
-		["magisterial"] = "Qiraji Magisterial Ring", --FIX ME
-	},
-	["drape"] = {
-		["martial"] = "Qiraji Martial Drape", --FIX ME
-		["regal"] = "Qiraji Regal Drape", --FIX ME
-	},
+    ["hilt"] = {
+        ["ornate"] = "Qiraji Ornate Hilt", --FIX ME
+        ["spiked"] = "Qiraji Spiked Hilt", --FIX ME
+    },
+    ["ring"] = {
+        ["ceremonial"] = "Qiraji Ceremonial Ring", --FIX ME
+        ["magisterial"] = "Qiraji Magisterial Ring", --FIX ME
+    },
+    ["drape"] = {
+        ["martial"] = "Qiraji Martial Drape", --FIX ME
+        ["regal"] = "Qiraji Regal Drape", --FIX ME
+    },
 };
 ReagentData["quest"]["Anh\'Qiraj"] = {};
 ReagentData["quest"]["Anh\'Qiraj"]["item"] = {
@@ -952,23 +952,23 @@ ReagentData["quest"]["Naxxramas"]["item"] = {
         ["waistguard"] = "Desecrated Waistguard", -- FIX ME
         ["wristguards"] = "Desecrated Wristguards", -- FIX ME
     },
-	["other"] = {
-		["gem"] = {
-			["arcanecrystal"] = "Cristal des arcanes",
-		},
-		["shard"] = {
-			["nexuscrystal"] = "Nexus Crystal", --FIX ME
-		},
-		["bar"] = {
-			["arcanite"] = "Barre d\'arcanite",
-		},
-		["hide"] = {
-			["curedrugged"] = "Peau robuste trait\195\169e",
-		},
-		["cloth"] = {
-			["moon"] = "Etoffe lunaire",
-		},
-	},
+    ["other"] = {
+        ["gem"] = {
+            ["arcanecrystal"] = "Cristal des arcanes",
+        },
+        ["shard"] = {
+            ["nexuscrystal"] = "Nexus Crystal", --FIX ME
+        },
+        ["bar"] = {
+            ["arcanite"] = "Barre d\'arcanite",
+        },
+        ["hide"] = {
+            ["curedrugged"] = "Peau robuste trait\195\169e",
+        },
+        ["cloth"] = {
+            ["moon"] = "Etoffe lunaire",
+        },
+    },
 };
 
 end

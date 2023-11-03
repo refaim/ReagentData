@@ -12,19 +12,19 @@
 
 function ReagentData_Flatten(table)
      if (type(table) ~= "table") then
-	  return;
+      return;
      end
 
      local returnTable = {};
 
      for key,value in table do
-	  if (type(value) == "table") then
-	       for subKey, subValue in value do
-		    tinsert(returnTable, subValue);
-	       end
-	  else
-	       tinsert(returnTable, value);
-	  end
+      if (type(value) == "table") then
+           for subKey, subValue in value do
+            tinsert(returnTable, subValue);
+           end
+      else
+           tinsert(returnTable, value);
+      end
      end
 
      return returnTable;
@@ -42,7 +42,7 @@ if (GetLocale() == "deDE") then
 elseif (GetLocale() == "frFR") then
      ReagentData_LoadFrench();
 elseif (GetLocale() == "zhCN") then
-	 ReagentData_LoadChinese();
+     ReagentData_LoadChinese();
 else
      ReagentData_LoadEnglish();
 end
@@ -63,17 +63,17 @@ end
 
 function ReagentData_ClassSpellReagent(item)
      if (item == nil or ReagentData['spellreagents'] == nil) then
-	  return;
+      return;
      end
      
      local returnArray = {};
 
      for class, subtable in ReagentData['spellreagents'] do
-	  for key, value in subtable do
-	       if (value == item) then
-		    tinsert(returnArray, class);
-	       end
-	  end
+      for key, value in subtable do
+           if (value == item) then
+            tinsert(returnArray, class);
+           end
+      end
      end
 
      return returnArray;
@@ -93,23 +93,23 @@ end
 
 function ReagentData_GatheredBy(item)
      if (item == nil) then
-	  return;
+      return;
      end
 
      local returnArray = {};
 
      for profession in ReagentData['gathering'] do
-	  if (ReagentData[profession] ~= nil) then
-	       for key, value in ReagentData[profession] do
-		    if (value == item) then 
-			 tinsert(returnArray, ReagentData['gathering'][profession]);
-			 break;
-		    end
-	       end
-	  end
+      if (ReagentData[profession] ~= nil) then
+           for key, value in ReagentData[profession] do
+            if (value == item) then
+             tinsert(returnArray, ReagentData['gathering'][profession]);
+             break;
+            end
+           end
+      end
      end
 
-     return returnArray;	  
+     return returnArray;
 end
 
 -- ReagentData_GetItemClass(class)
@@ -126,7 +126,7 @@ end
 
 function ReagentData_GetItemClass(class)
      if (class == nil or ReagentData[class] == nil) then
-	  return;
+      return;
      end
 
      return ReagentData[class];
@@ -143,20 +143,20 @@ end
 
 function ReagentData_GetProfessions(item)
      if (item == nil) then
-	  return;
+      return;
      end
 
      local returnArray = {};
 
      for profession in ReagentData['professions'] do
-	  if (ReagentData[profession] ~= nil) then
-	       for key, value in ReagentData[profession] do
-		    if (value == item) then 
-			 tinsert(returnArray, ReagentData['professions'][profession]);
-			 break;
-		    end
-	       end
-	  end
+      if (ReagentData[profession] ~= nil) then
+           for key, value in ReagentData[profession] do
+            if (value == item) then
+             tinsert(returnArray, ReagentData['professions'][profession]);
+             break;
+            end
+           end
+      end
      end
 
      return returnArray;
@@ -172,17 +172,17 @@ end
 
 function ReagentData_GetSpellReagents(class)
      if (class == nil) then
-	  class = "all";
+      class = "all";
      end
 
      if (class == "all") then
-	  return ReagentData['spellreagents'];
+      return ReagentData['spellreagents'];
      end
 
      for key, value in ReagentData['spellreagents'] do
-	  if (key == class) then
-	       return value;
-	  end
+      if (key == class) then
+           return value;
+      end
      end
 
      return nil;
@@ -196,13 +196,13 @@ end
 
 function ReagentData_IsMonsterDrop(item)
      if (item == nil or ReagentData['monsterdrops'] == nil) then
-	  return false;
+      return false;
      end
 
      for key, value in ReagentData['monsterdrops'] do
-	  if (value == item) then
-	       return true;
-	  end
+      if (value == item) then
+           return true;
+      end
      end
 
      return false;     
@@ -218,19 +218,19 @@ end
 function ReagentData_IsUsedByProfession(item, profession)
      -- If we have nil arguments, just return false.
      if (item == nil or profession == nil) then
-	  return false;
+      return false;
      end
 
      -- Now make sure we were passed a valid profession
      if (ReagentData['reverseprofessions'] == nil or ReagentData['reverseprofessions'][profession] == nil) then
-	  return false;
+      return false;
      end
 
      -- Check to see if the requested item is in the array.  If so, return true.
      for key, value in ReagentData[ReagentData['reverseprofessions'][profession]] do
-	  if (value == item) then
-	       return true;
-	  end
+      if (value == item) then
+           return true;
+      end
      end
 
      -- If we've gotten here, it's not in the requested profession, so return false.
@@ -244,13 +244,13 @@ end
 
 function ReagentData_IsVendorItem(item)
      if (item == nil or ReagentData['vendor'] == nil) then
-	  return false;
+      return false;
      end
 
      for key, value in ReagentData['vendor'] do
-	  if (value == item) then
-	       return true;
-	  end
+      if (value == item) then
+           return true;
+      end
      end
 
      return false;
@@ -269,13 +269,13 @@ end
 
 local function ReagentData_CreateReverseProfessions()
      if (ReagentData['professions'] == nil) then
-	  return;
+      return;
      end
 
      local returnArray = {};
 
      for key, profession in ReagentData['professions'] do
-	  returnArray[profession] = key;
+      returnArray[profession] = key;
      end
 
      return returnArray;
@@ -287,13 +287,13 @@ end
 
 local function ReagentData_CreateReverseGatherSkills()
      if (ReagentData['gathering'] == nil) then
-	  return;
+      return;
      end
 
      local returnArray = {};
 
      for key, profession in ReagentData['gathering'] do
-	  returnArray[profession] = key;
+      returnArray[profession] = key;
      end
 
      return returnArray;

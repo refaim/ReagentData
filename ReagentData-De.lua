@@ -122,7 +122,7 @@ ReagentData["gem"] = {
             ["aquamarine"] = "Aquamarin",
             ["arcanecrystal"] = "Arkankristall",
             ["souldarite"] = "Soldarit",
-	      ["pristineblackdiamond"] = "Makelloser schwarzer Diamant",
+          ["pristineblackdiamond"] = "Makelloser schwarzer Diamant",
 };
  
 -- Reagent Data: Herbs
@@ -356,8 +356,8 @@ ReagentData["reagent"] = {
             ["flashpowder"] = "Blitzstrahlpulver",
             ["blindingpowder"] = "Blendungspulver",
             ["shinyfishscales"] = "Gl\195\164nzende Fischschuppen",
-		["arcanepowder"] = "Arkanes Pulver",
-		["symbolofkings"] = "Symbol der K\195\182nige",
+        ["arcanepowder"] = "Arkanes Pulver",
+        ["symbolofkings"] = "Symbol der K\195\182nige",
 };
  
 -- Reagent Data: Scales
@@ -835,8 +835,8 @@ ReagentData["quest"]["Zul\'Gurub"]["item"] = {
 --~         ["yellow"] = "Gelbes Schmuckst\195\188ck der Hakkari",
 --~     },
     ["doll"] = {
-		["voodoo"] = "Durchstochene Voodoopuppe",
-	},
+        ["voodoo"] = "Durchstochene Voodoopuppe",
+    },
     ["primal"] = {
         ["aegis"] = "Urzeitliche Aegis der Hakkari",
         ["armsplint"] = "Urzeitlicher Hakkariarmsplinte",
@@ -847,7 +847,7 @@ ReagentData["quest"]["Zul\'Gurub"]["item"] = {
         ["shawl"] = "Urzeitlicher Hakkarischal",
         ["stanchion"] = "Urzeitliche Hakkarist\195\188tze",
         ["tabard"] = "Urzeitliche Hakkariwappenrock",
-		["idol"] = "Urzeitlicher Hakkarig\195\182tze",
+        ["idol"] = "Urzeitlicher Hakkarig\195\182tze",
     },
 };
 ReagentData["quest"]["Ruins of Anh\'Qiraj"] = {};
@@ -872,18 +872,18 @@ ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"] = {
         ["silver"] = "Silberskarab\195\164us",
         ["stone"] = "Steinskarab\195\164us",
     },]]
-	["hilt"] = {
-		["ornate"] = "Verschn\195\182rkelter Griff der Qiraji",
-		["spiked"] = "Stachelgriff der Qiraji",
-	},
-	["ring"] = {
-		["ceremonial"] = "Zeremonienring der Qiraji",
-		["magisterial"] = "Gebieterring der Qiraji",
-	},
-	["drape"] = {
-		["martial"] = "Kampftuch der Qiraji",
-		["regal"] = "Hoheitstuch der Qiraji",
-	},
+    ["hilt"] = {
+        ["ornate"] = "Verschn\195\182rkelter Griff der Qiraji",
+        ["spiked"] = "Stachelgriff der Qiraji",
+    },
+    ["ring"] = {
+        ["ceremonial"] = "Zeremonienring der Qiraji",
+        ["magisterial"] = "Gebieterring der Qiraji",
+    },
+    ["drape"] = {
+        ["martial"] = "Kampftuch der Qiraji",
+        ["regal"] = "Hoheitstuch der Qiraji",
+    },
 };
 ReagentData["quest"]["Anh\'Qiraj"] = {};
 ReagentData["quest"]["Anh\'Qiraj"]["item"] = {
@@ -952,23 +952,23 @@ ReagentData["quest"]["Naxxramas"]["item"] = {
         ["waistguard"] = "Entweihter Taillenschutz",
         ["wristguards"] = "Entweihter Handgelenksschutz",
     },
-	["other"] = {
-		["gem"] = {
-			["arcanecrystal"] = "Arkankristall",
-		},
-		["shard"] = {
-			["nexuscrystal"] = "Nexuskristall",
-		},
-		["bar"] = {
-			["arcanite"] = "Arkanitrute",
-		},
-		["hide"] = {
-			["curedrugged"] = "Geschmeidiger unverw\195\188stlicher Balg",
-		},
-		["cloth"] = {
-			["moon"] = "Mondstoff",
-		},
-	},
+    ["other"] = {
+        ["gem"] = {
+            ["arcanecrystal"] = "Arkankristall",
+        },
+        ["shard"] = {
+            ["nexuscrystal"] = "Nexuskristall",
+        },
+        ["bar"] = {
+            ["arcanite"] = "Arkanitrute",
+        },
+        ["hide"] = {
+            ["curedrugged"] = "Geschmeidiger unverw\195\188stlicher Balg",
+        },
+        ["cloth"] = {
+            ["moon"] = "Mondstoff",
+        },
+    },
 };
 
 end

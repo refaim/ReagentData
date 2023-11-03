@@ -356,8 +356,8 @@ ReagentData["reagent"] = {
      ["symbolofdivinity"] = "神圣符印",
      ["blindingpowder"] = "致盲粉",
      ["shinyfishscales"] = "闪亮的鱼鳞",
-	 ["arcanepowder"] = "魔粉",
-	 ["symbolofkings"] = "王者印记",
+     ["arcanepowder"] = "魔粉",
+     ["symbolofkings"] = "王者印记",
 };
 
 -- Reagent Data: Scales
@@ -834,8 +834,8 @@ ReagentData["quest"]["Zul\'Gurub"]["item"] = {
 --       ['yellow'] = "黄色哈卡莱宝石",
 --  },
     ["doll"] = {
-		["voodoo"] = "打孔的巫毒人偶",
-	},
+        ["voodoo"] = "打孔的巫毒人偶",
+    },
   ['primal'] = {
        ['aegis'] = "原始哈卡莱之盾",
        ['armsplint'] = "原始哈卡莱护臂",
@@ -846,7 +846,7 @@ ReagentData["quest"]["Zul\'Gurub"]["item"] = {
        ['shawl'] = "原始哈卡莱披肩",
        ['stanchion'] = "原始哈卡莱直柱",
        ['tabard'] = "原始哈卡莱徽章",
-	   ["idol"] = "原始哈卡莱神像",
+       ["idol"] = "原始哈卡莱神像",
     },
 };
 ReagentData["quest"]["Ruins of Anh\'Qiraj"] = {};
@@ -871,18 +871,18 @@ ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"] = {
         ["silver"] = "银质甲虫",
         ["stone"] = "岩石甲虫",
     },]]
-	["hilt"] = {
-		["ornate"] = "其拉装饰护裙 ",
-		["spiked"] = "其拉尖刺护裙",
-	},
-	["ring"] = {
-		["ceremonial"] = "其拉典礼戒指",
-		["magisterial"] = "其拉将领戒指",
-	},
-	["drape"] = {
-		["martial"] = "其拉军用披风",
-		["regal"] = "其拉帝王披风",
-	},
+    ["hilt"] = {
+        ["ornate"] = "其拉装饰护裙 ",
+        ["spiked"] = "其拉尖刺护裙",
+    },
+    ["ring"] = {
+        ["ceremonial"] = "其拉典礼戒指",
+        ["magisterial"] = "其拉将领戒指",
+    },
+    ["drape"] = {
+        ["martial"] = "其拉军用披风",
+        ["regal"] = "其拉帝王披风",
+    },
 };
 ReagentData["quest"]["Anh\'Qiraj"] = {};
 ReagentData["quest"]["Anh\'Qiraj"]["item"] = {
@@ -920,10 +920,10 @@ ReagentData["quest"]["Anh\'Qiraj"]["item"] = {
 ReagentData["quest"]["Naxxramas"] = {};
 ReagentData["quest"]["Naxxramas"]["item"] = {
     ["scrap"] = {
-		["cloth"] = "布衣碎片",
-		["leather"] = "皮甲碎片",
-		["chain"] = "锁甲碎片",
-		["plate"] = "板甲碎片",
+        ["cloth"] = "布衣碎片",
+        ["leather"] = "皮甲碎片",
+        ["chain"] = "锁甲碎片",
+        ["plate"] = "板甲碎片",
     },
     ["desecrated"] = {
         ["belt"] = "被玷污的腰带",
@@ -951,23 +951,23 @@ ReagentData["quest"]["Naxxramas"]["item"] = {
         ["waistguard"] = "被玷污的护腰",
         ["wristguards"] = "被玷污的腕甲",
     },
-	["other"] = {
-		["gem"] = {
-			["arcanecrystal"] = "奥术水晶",
-		},
-		["shard"] = {
-			["nexuscrystal"] = "连结水晶",
-		},
-		["bar"] = {
-			["arcanite"] = "奥金棒",
-		},
-		["hide"] = {
-			["curedrugged"] = "熟化毛皮",
-		},
-		["cloth"] = {
-			["moon"] = "月布",
-		},
-	},
+    ["other"] = {
+        ["gem"] = {
+            ["arcanecrystal"] = "奥术水晶",
+        },
+        ["shard"] = {
+            ["nexuscrystal"] = "连结水晶",
+        },
+        ["bar"] = {
+            ["arcanite"] = "奥金棒",
+        },
+        ["hide"] = {
+            ["curedrugged"] = "熟化毛皮",
+        },
+        ["cloth"] = {
+            ["moon"] = "月布",
+        },
+    },
 };
 
 

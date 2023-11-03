@@ -5,7 +5,7 @@ if (GetLocale() == "deDE") then
 elseif (GetLocale() == "frFR") then
     ReagentData_LoadQuestItemsFrench();
 elseif (GetLocale() == "zhCN") then
-	ReagentData_LoadQuestItemsChinese();
+    ReagentData_LoadQuestItemsChinese();
 else
     ReagentData_LoadQuestItemsEnglish();
 end
@@ -22,10 +22,10 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["chest"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["tabard"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
      [ReagentData["classes"]["hunter"]] = {
       [ReagentData["location"]["wrist"]] = {
@@ -37,10 +37,10 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["shoulder"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["aegis"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
      [ReagentData["classes"]["mage"]] = {
       [ReagentData["location"]["wrist"]] = {
@@ -52,10 +52,10 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["chest"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["kossack"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
      [ReagentData["classes"]["paladin"]] = {
       [ReagentData["location"]["wrist"]] = {
@@ -67,10 +67,10 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["chest"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["tabard"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
      [ReagentData["classes"]["priest"]] = {
       [ReagentData["location"]["wrist"]] = {
@@ -82,10 +82,10 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["shoulder"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["aegis"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
      [ReagentData["classes"]["rogue"]] = {
       [ReagentData["location"]["wrist"]] = {
@@ -97,10 +97,10 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["chest"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["aegis"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
      [ReagentData["classes"]["shaman"]] = {
       [ReagentData["location"]["wrist"]] = {
@@ -112,10 +112,10 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["chest"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["tabard"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
      [ReagentData["classes"]["warlock"]] = {
       [ReagentData["location"]["wrist"]] = {
@@ -127,10 +127,10 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["chest"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["kossack"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
      [ReagentData["classes"]["warrior"]] = {
       [ReagentData["location"]["wrist"]] = {
@@ -142,194 +142,194 @@ ReagentData["quest"]["Zul\'Gurub"]["use"] = {
       [ReagentData["location"]["chest"]] = {
            [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["kossack"]] = 1,
       },
-	  [ReagentData["location"]["enchant"]] = {
-	       [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
-		   [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
-	  },
+      [ReagentData["location"]["enchant"]] = {
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["primal"]["idol"]] = 1,
+           [ReagentData["quest"]["Zul\'Gurub"]["item"]["doll"]["voodoo"]] = 1,
+      },
      },
 };
 
 ReagentData["quest"]["Ruins of Anh\'Qiraj"]["use"] = {
-	[ReagentData["classes"]["druid"]] = {
-		[ReagentData["location"]["finger"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["alabaster"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["vermillion"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["ornate"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["jasper"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
-		},
-	},
-	[ReagentData["classes"]["hunter"]] = {
-		[ReagentData["location"]["finger"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["ceremonial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["amber"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["lambent"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["azure"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
-		},
-	},
-	[ReagentData["classes"]["mage"]] = {
-		[ReagentData["location"]["finger"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["azure"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["martial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["alabaster"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["ornate"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["obsidian"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
-		},
-	},
-	[ReagentData["classes"]["paladin"]] = {
-		[ReagentData["location"]["finger"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["vermillion"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["obsidian"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["amber"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
-		},
-	},
-	[ReagentData["classes"]["priest"]] = {
-		[ReagentData["location"]["finger"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["ceremonial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["obsidian"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["martial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["jasper"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["ornate"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["lambent"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
-		},
-	},
-	[ReagentData["classes"]["rogue"]] = {
-		[ReagentData["location"]["finger"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["ceremonial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["onyx"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["martial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["azure"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["vermillion"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
-		},
-	},
-	[ReagentData["classes"]["shaman"]] = {
-		[ReagentData["location"]["finger"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["vermillion"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["obsidian"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["amber"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
-		},
-	},
-	[ReagentData["classes"]["warlock"]] = {
-		[ReagentData["location"]["finger"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["ceremonial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["jasper"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["lambent"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["ornate"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["onyx"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
-		},
-	},
-	[ReagentData["classes"]["warrior"]] = {
-		[ReagentData["location"]["finger"]]= {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["lambent"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
-		},
-		[ReagentData["location"]["back"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["martial"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["onyx"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
-		},
-		[ReagentData["location"]["weapon"]] = {
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
-			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["alabaster"]] = 2,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
---~ 			[ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
-		},
-	},
+    [ReagentData["classes"]["druid"]] = {
+        [ReagentData["location"]["finger"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["alabaster"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["vermillion"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["ornate"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["jasper"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
+        },
+    },
+    [ReagentData["classes"]["hunter"]] = {
+        [ReagentData["location"]["finger"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["ceremonial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["amber"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["lambent"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["azure"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
+        },
+    },
+    [ReagentData["classes"]["mage"]] = {
+        [ReagentData["location"]["finger"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["azure"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["martial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["alabaster"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["ornate"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["obsidian"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
+        },
+    },
+    [ReagentData["classes"]["paladin"]] = {
+        [ReagentData["location"]["finger"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["vermillion"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["obsidian"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["amber"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
+        },
+    },
+    [ReagentData["classes"]["priest"]] = {
+        [ReagentData["location"]["finger"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["ceremonial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["obsidian"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["martial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["jasper"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["ornate"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["lambent"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
+        },
+    },
+    [ReagentData["classes"]["rogue"]] = {
+        [ReagentData["location"]["finger"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["ceremonial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["onyx"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["martial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["azure"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["vermillion"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
+        },
+    },
+    [ReagentData["classes"]["shaman"]] = {
+        [ReagentData["location"]["finger"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["vermillion"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["obsidian"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["amber"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
+        },
+    },
+    [ReagentData["classes"]["warlock"]] = {
+        [ReagentData["location"]["finger"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["ceremonial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["jasper"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["regal"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["lambent"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["ornate"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["onyx"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["gold"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["clay"]] = 5,
+        },
+    },
+    [ReagentData["classes"]["warrior"]] = {
+        [ReagentData["location"]["finger"]]= {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["ring"]["magisterial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["lambent"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bronze"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["ivory"]] = 5,
+        },
+        [ReagentData["location"]["back"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["drape"]["martial"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["onyx"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["bone"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["silver"]] = 5,
+        },
+        [ReagentData["location"]["weapon"]] = {
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["hilt"]["spiked"]] = 1,
+            [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["idol"]["alabaster"]] = 2,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["crystal"]] = 5,
+--~             [ReagentData["quest"]["Ruins of Anh\'Qiraj"]["item"]["scarab"]["stone"]] = 5,
+        },
+    },
 };
 
 ReagentData["quest"]["Anh\'Qiraj"]["use"] = {
