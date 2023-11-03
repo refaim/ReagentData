@@ -1,6 +1,6 @@
 # Addon copied from https://legacy-wow.com/vanilla-addons/reagentdata/
 
-Reagent Data - Version 2.4.0c
+Reagent Data - Version 2.4.0d
 
 Author: Jerigord (GDI)
 German Translated provided by Xadros
