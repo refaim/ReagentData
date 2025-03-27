@@ -1,6 +1,10 @@
-⚠️ Repository Archived
-This repository is no longer maintained. 
-Please use the new library: https://github.com/refaim/LibCrafts-1.0
+### ⚠️ Repository Notice
+**For Players:**
+If this addon is a dependency for another addon, you can safely install it.
+
+**For Addon Developers:**
+If you intend to use ReagentData in your own addon, please note that this repository is now archived and no longer maintained. I recomment switching to LibCrafts (see https://github.com/refaim/LibCrafts-1.0) for continued support and updates.
+
 ----------------------------------------------------------------
 
 # Addon copied from https://legacy-wow.com/vanilla-addons/reagentdata/
